@@ -8,7 +8,7 @@ import os
 # Load model from file
 cwd = os.getcwd()
 print(cwd)
-model_filename = "week3/iris/iris_random_forest_classifier.pkl"
+model_filename = "iris_random_forest_classifier.pkl"
 with open(model_filename, mode="rb") as f:
     model = pickle.load(f)
 # Load dataset
